@@ -5,10 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starbucks Landing Page</title>
     <link rel="stylesheet" href="./css/styles.css">
-
 </head>
 <body>
-    
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="./img/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's new</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just coffee<br>It's <span>Starbucks</span></h2>
+                <p>The best coffee suplier in Tabata blended with natural produce from Tanzania,We assure freshest experience ever,trust me.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imageBox">
+                <img src="./img/img1.png" alt="Starbucks image" class="starbucks-image">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./img/thumb1.png" alt="green starbucks" onclick="imageSlider('./img/img1.png');changeCircleColor('#017143')"></li>
+            <li><img src="./img/thumb2.png" alt="white starbucks" onclick="imageSlider('./img/img2.png');changeCircleColor('#eb7495')"></li>
+            <li><img src="./img/thumb3.png" alt="purple starbucks" onclick="imageSlider('./img/img3.png');changeCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="social-media">
+            <li><a href="#"><img src="./img/facebook.png" alt="Facebook icon"></a></li>
+            <li><a href="#"><img src="./img/twitter.png" alt="Twitter icon"></a></li>
+            <li><a href="#"><img src="./img/instagram.png" alt="Instagram icon"></a></li>
+        </ul>
+    </section>    
     <script src="./js/scripts.js" async defer></script>
 </body>
 </html>
