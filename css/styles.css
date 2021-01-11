@@ -80,6 +80,11 @@ header ul li a{
     color: #333;
 }
 
+.content .textBox p span{
+    color: #017143;
+    font-weight: 800;
+}
+
 .content .textBox a{
     display: inline-block;
     margin-top: 20px;
